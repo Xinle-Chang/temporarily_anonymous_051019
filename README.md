@@ -32,6 +32,7 @@ Otherwise, if you want to run the data preprocessing , fALFF computation and fAL
 │
 ├─Materials
 │      rICBM_WMPM.nii
+│      rICBM_WMPM_center_coor.mat
 │      TPM.nii
 │      WholeGM.nii
 │      WholeWM.nii
