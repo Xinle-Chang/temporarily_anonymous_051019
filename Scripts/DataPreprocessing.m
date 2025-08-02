@@ -12,7 +12,7 @@ for i=1:10
         disp(['>>>>>>> Processing : Sub ' ID{i} '-Ses ' ID{j} ' <<<<<<<'])
         fimg=['../ds000224/derivatives/volume_pipeline/sub-MSC' ID{i} '/processed_restingstate_timecourses/ses-func' ID{j} '/talaraich/sub-MSC' ID{i} '_ses-func' ID{j} '_task-rest_bold_talaraich.nii'];
         gunzip([fimg '.gz']);
-        %Slice timing, motion correction, and spatial coregistration adn
+        %Slice timing, motion correction, and spatial coregistration and
         %normalization
         matlabbatch=fwra_pro(fimg,t1img);
         spm_jobman('run',matlabbatch);

@@ -1,5 +1,5 @@
 # BIBM-2025-anonymous submission paper code
-This is an anonymous code repository for our paper submission in MICCAI 2025.
+This is an anonymous code repository for our paper submission in BIBM 2025.
 ## Requirements
 This project is mainly is mainly implemented through MATLAB2020A, and the versions you are using should be compatible with it. Except basic MATLAB environment, 2 packages need installing into MATLAB toolbox:
 
